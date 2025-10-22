@@ -17,6 +17,6 @@ public abstract class ClaseAbstractaMala {
     public abstract void metodoAbstracto();
 
     // Si intentaras:
-     default void metodoPredeterminado() {} 
+    // default void metodoPredeterminado() {} 
     // Esto produciría un ERROR DE COMPILACIÓN.
 }
