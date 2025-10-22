@@ -11,10 +11,8 @@ public class TestEjercicio1 {
         Rectangulo rect = new Rectangulo(5.0, 4.0);
         Triangulo tri = new Triangulo(6.0, 3.0);
 
-        rect.mostrarMensaje(); // Método concreto compartido
         System.out.printf("Área del Rectángulo: %.2f%n", rect.calcularArea());
         
-        tri.mostrarMensaje();
         System.out.printf("Área del Triángulo: %.2f%n", tri.calcularArea());
     }
 }

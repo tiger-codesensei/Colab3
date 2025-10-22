@@ -9,9 +9,4 @@ public abstract class Figura {
     
     // Método abstracto (debe ser implementado por las subclases)
     public abstract double calcularArea();
-
-    // Método concreto (código base compartido)
-    public void mostrarMensaje() {
-        System.out.println("Cálculo de área de una figura geométrica.");
     }
-}
